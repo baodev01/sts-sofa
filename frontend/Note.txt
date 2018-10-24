@@ -1,0 +1,63 @@
+﻿
+
+boostrap 4.0
+https://getbootstrap.com/docs/4.0/layout/overview/
+
+
+
+Tiền đề:
+	- Web có thể hiển thị được cả PC và smartphone
+	- Web sẽ hiển thị cả 2 ngôn ngữ EN, VN 
+	- Cơ bản là sẽ tham khảo từ web https://sofaphucuong.com/ 
+	- Màu nền chủ đạo của web là trắng.
+
+Các mục chung:
+1. Menu:
+ - bố giao diện tương tự web thảm khảo
+	+ PC thì hiển thị thành line dưới slide, smartphone thì hiển thị khi click vào button sổ menu. sổ theo chiều dọc
+ - Nội dung :
+	+ Trang chủ
+	+ Giới thiệu
+	+ Sản phẩm
+	+ Liên hệ
+ - Tất cả các trang điều có.
+2. Slide : chỉ màn hình home mới có hiển thị
+
+3. danh mục sản phẩm. 
+	- PC thì hiển thị giống web tham khảo. 	SmartPhone thì không cần hiển thị
+	
+4. Thông tin liên hệ là phần dưới cùng của trang web.
+	- Tất cả các trang điều có.
+	
+5. Danh sách sản phẩm tương tự
+	- PC thì hãy hiển thị 3 sản phẩm trên 1 hàng. SmartPhone thì hãy hiển thị 1 sản phẩm trên 1 hàng.
+	- 
+	
+	
+6. Hình ảnh thì hãy có thể zoom được
+	
+Chi tiết cho từng trang:
+1. Trang chủ
+	Có các mục
+	- Slide
+	- Menu
+	- Danh sách sản phẩm khuyến mãi ( theo mục chung 5)
+	- Danh sách sản phẩm được mua nhiều ( theo mục chung 5)
+	- Giới thiệu về công ty
+	- Thông tin liên hệ là phần dưới cùng của trang web.
+
+2. Danh sách sản phẩm
+	+ Danh sách sản phẩm
+			( theo mục chung 5)
+3. Sản phẩm chi tiết
+	- Cơ bản là tham khảo cách thiết kế ở web trên
+	- Sẽ có 3 mục chính.
+		+ Thông tin cơ bản về sản phẩm. ( tên, mã, giá , hình ảnh )	
+			Hình ảnh thì hãy có thể zoom được
+		+ Giới thiệu thêm về sản phẩm
+		+ Danh sách sản phẩm tương tự
+			( theo mục chung 5)
+
+4. Liên hệ
+	- Chưa quyết định ( hãy đề xuất )
+	
