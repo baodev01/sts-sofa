@@ -10,23 +10,29 @@ branch
 Ngon ngu lam trinh:
 	php
 Framework: 
-	laravel v5.0
-		docs: https://laravel.com/docs/5.0
+	laravel v5.6
+		docs: https://laravel.com/docs/5.6
+
 DataBase: mysql
+
+PHP: 7.2.0
 	
 	
 Server Requirements
 The Laravel framework has a few system requirements:
 
-PHP >= 5.4, PHP < 7
-Mcrypt PHP Extension
+PHP >= 7.1.3
 OpenSSL PHP Extension
+PDO PHP Extension
 Mbstring PHP Extension
 Tokenizer PHP Extension
+XML PHP Extension
+Ctype PHP Extension
+JSON PHP Extension
 
 
 php : current using
-	https://windows.php.net/download#php-5.6
+PHP: 7.2.0
 
 	
 Bước 3: Chạy ứng dụng
@@ -37,4 +43,14 @@ Bước 3: Chạy ứng dụng
 		Cách 2: Các bạn dùng terminal truy cập truy cập vào trong folder của dự án và gõ lệnh
 
 
-		php artisan serve
+
+========================================
+composer create-project laravel/laravel sofahoangvu "5.6.*" --prefer-dist
+
+php artisan serve
+
+php artisan key:generate
+
+config/app.php
+	timezone
+	locale
