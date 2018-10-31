@@ -11,8 +11,18 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+Route::group(['middleware' => 'locale'], function() {
+    
+    // change language    
+    Route::get('language/{language}', 'HomeController@changeLanguage')
+        ->name('user.change-language');
+
+
+    Route::get('/', 'HomeController@index');
+        
+    Route::resource('product', 'ProductController');
+    
+
 });
 
-Route::resource('product', 'ProductController');
+

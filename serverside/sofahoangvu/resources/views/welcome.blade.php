@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="{{ app()->getLocale() }}">
+<html lang="{{Config::get('app.locale')}}">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -80,14 +80,22 @@
             <div class="content">
                 <div class="title m-b-md">
                     Laravel
+                    <br />
+                    <a href="{{ url('language/en') }}">English</a>
+                    <a href="{{ url('language/vi') }}">Vietnam</a>
                 </div>
-
+                <div>
+                    <?php echo \App::getLocale();
+                    ?>
+                </div>
                 <div class="links">
-                    <a href="https://laravel.com/docs">Documentation</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://forge.laravel.com">Forge</a>
+                    <a href="https://laravel.com/docs">@lang('messages.menu.home')</a>
+                    <a href="https://laracasts.com">@lang('messages.menu.overview')</a>
+                    <a href="{{ url('/product') }}">@lang('messages.menu.product')</a>
+                    <a href="https://forge.laravel.com">@lang('messages.menu.contact')</a>
                     <a href="https://github.com/laravel/laravel">GitHub</a>
+
+                    <a href="{{ url('/product') }}">product</a>
                 </div>
             </div>
         </div>
